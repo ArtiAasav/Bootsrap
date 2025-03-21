@@ -22,6 +22,40 @@
   </head>
   <body>
     <div class="container">
+      <!-- menüü -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa-brands fa-facebook"></i> Veebibeebi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Avaleht</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Yap list
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Yapper</a></li>
+                  <li><a class="dropdown-item" href="#">Yappatron</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Yappington</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-success" type="submit"><i class="fa-solid fa-money-bill"></i> Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- menüü -->
       <div class="p-5 mb-4 bg-body-tertiary rounded-3 text-center jumbo text-dark">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">Jumbotron</h1>
@@ -62,7 +96,6 @@
                 <span class="badge text-bg-warning">Warning</span>
               <p class="card-text">Sama laul nagu Saaremaa valss</p>
               <i class="fa-brands fa-youtube"></i>
-              <i class="bi bi-facebook"></i>
             </div>
           </div>
         </div>
